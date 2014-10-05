@@ -68,7 +68,15 @@ p {
 	padding-bottom: 80px;
 }
 
+
+
+/**
+ * CONTENT/TOOLS
+ */
 #tools article {
+	min-width: 150px;
+	max-width: 200px;
+	
 	background-color: #fff;
 	display: inline-block;
 	padding: 0.2em;
@@ -76,7 +84,6 @@ p {
 	border: 1px solid #ccc;
 	
 }
-
 #tools article:hover {
 	-moz-transition: box-shadow .2s ease-in-out;
 	-webkit-transition: box-shadow .2s ease-in-out;
@@ -94,11 +101,17 @@ p {
 	font-size: 0.8em;
 }
 
+.tools-image img {
+	max-width: 100%;
+	max-height: auto;
+}
+
 /**
  * FOOTER
  */
 footer {
 	font-weight: 700;
+	line-height: 1.2em;
 	width:100%;
 	position:absolute;
 	bottom:0;
