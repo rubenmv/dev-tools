@@ -1,4 +1,3 @@
-- Indicador de que tecla estas pulsando, su código ascii. útil para juegos (http://codepen.io/miduga/pen/ujolf).
 - Conversor a base64 (http://jsfiddle.net/eliseosoto/JHQnk/). En principio de imagenes pero supongo que otros formatos pueden ser. Lo que se haga normalmente.
 - Conversor de imagenes png a jpg con transparencia o como sea eso.
 - Testeador de calidad de password.
