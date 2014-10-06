@@ -1,0 +1,47 @@
+body {
+	background: none;
+	background-color: #eaeaea;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	padding: 1em 0;
+}
+
+#section-results {
+	/*display: none;*/
+}
+
+#content {
+	padding: 0;
+	max-width: 50%;
+	margin: auto;
+	text-align: left;
+}
+
+#content article {
+	padding: 1em;
+	border-radius: 10px;
+	border: 1px dashed #bbb;
+	background-color: #fafafa;
+}
+
+#content article:not(:first-child) {
+	margin-top: 2em;
+}
+
+.button {
+	vertical-align: middle;
+}
+
+#button-convert {
+	font-size: 1.5em;
+}
+
+textarea {
+	width: 100%;
+	min-height: 10em; /*this way it's almost like indicating lines*/
+}

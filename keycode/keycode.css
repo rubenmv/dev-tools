@@ -1,4 +1,15 @@
+body {
+	background: none;
+	background-color: #eaeaea;
+}
+
 #keycode {
 	font-size: 12em;
 	color: #555;
+}
+
+p.warning {
+	text-align: justify;
+	max-width: 50%;
+	margin: 4em auto;
 }
