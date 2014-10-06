@@ -21,9 +21,12 @@
 		<!-- Content -->
 		<div id="content" class="page-section">
 			<article id="section-file">
-				<h2>Select or drop the image</h2>
+				<h2>Select the image</h2>
 				<p>Limited size of 200KB<br>Formats: jpeg, png or ico</p>
-				<input type="file" id="file-picker" class="button" />
+				<label for="file-picker__input" id="file-picker__label" class="button">
+					Click to choose the image
+				</label>
+				<input type="file" id="file-picker__input" />
 				<button id="button-convert" class="button">Convert!</button><br>
 				<span id="file-error" class="warning"></span>
 			</article>
@@ -45,6 +48,7 @@
 			<a href="http://rubenmv.github.io/">Rub&eacute;n Mart&iacute;nez Vilar</a>. 2013.
 		</footer>
 	</div>
+	<script src="../js/common.js"></script>
 	<script src="base64encoder.js"></script>
 </body>
 

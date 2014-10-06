@@ -1,3 +1,3 @@
-- Conversor de imagenes png a jpg con transparencia o como sea eso.
 - Testeador de calidad de password.
 - Generador de passwords random seguros a partir de un par de palabras normales. Indicar el tamaño minimo y maximo, los simbolos a incluir, mayusculas, etc.
+- Conversor de imagenes png a jpg con transparencia o como sea eso. Probar con ruby en github.

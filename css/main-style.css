@@ -136,6 +136,20 @@ p {
 }
 
 /**
+ * FILE PICKER
+ */
+input[type="file"] {
+	max-width: 0;
+	max-height: 0;
+	visibility: hidden;
+}
+#file-picker__label {
+	max-width: 300px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/**
  * CONTENT/TOOLS
  */
 #tools article {

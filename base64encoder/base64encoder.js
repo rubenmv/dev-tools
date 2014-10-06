@@ -15,19 +15,22 @@ function reset() {
 }
 
 function handleFileSelect(evt) {
-	var filePicker = document.getElementById('file-picker');
+	var filePicker = document.getElementById('file-picker__input');
+	if(filePicker === null) {
+		return false;
+	}
 	var files = filePicker.files,
 		file = files[0];
 	if (files && file) {
 		if (file.size > FILE_SIZE_LIMIT) {
 			setFileError('File size limit exceeded');
 			evt.srcElement.value = '';
-			return;
+			return false;
 		}
 		else if (FILE_TYPES.indexOf(file.type) === -1 ) {
 			setFileError('Invalid file type');
 			evt.srcElement.value = '';
-			return;
+			return false;
 		}
 		var reader = new FileReader();
 		reader.onload = function(readerEvt) {
@@ -42,7 +45,7 @@ function handleFileSelect(evt) {
 
 if (window.File && window.FileReader && window.FileList && window.Blob) {
     document.getElementById('button-convert').addEventListener('click', handleFileSelect, false);
-	document.getElementById('file-picker').addEventListener('click', reset, false);
+	document.getElementById('file-picker__input').addEventListener('click', reset, false);
 } else {
     setFileError('The File APIs are not fully supported in this browser.');
 }
