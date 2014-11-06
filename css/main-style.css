@@ -181,9 +181,9 @@ input[type="file"] {
 #tools article:hover {
 	background-color: rgba(255, 255, 255, 1.0);
 	
-	-webkit-box-shadow: 5px 5px 2px 0px #DFDACF;
-	-moz-box-shadow: 5px 5px 2px 0px #DFDACF;
-	box-shadow: 5px 5px 2px 0px #cbc1ab;
+	-webkit-box-shadow: 5px 5px 2px 0 #DFDACF;
+	-moz-box-shadow: 5px 5px 2px 0 #DFDACF;
+	box-shadow: 5px 5px 2px 0 #cbc1ab;
 }
 
 /**
